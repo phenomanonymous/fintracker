@@ -19,5 +19,5 @@ The script will need to be run once in a GUI environment so that the google auth
 
 ## CREDITS
 
-Credit to mroony/mintapi for his mintapi python work, I just made a small tweak to make it work on my machine with my workflow, but he did the hard stuff
-Credit to Jamonek/Robinhood for his robinhood api endpoints work
+* Credit to mrooney/mintapi for his mintapi python work, I just made a small tweak to make it work on my machine with my workflow, but he did the hard stuff
+* Credit to Jamonek/Robinhood for his robinhood api endpoints work
