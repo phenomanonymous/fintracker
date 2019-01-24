@@ -1,0 +1,5 @@
+*.pyc
+const/CONSTANTS.py
+html/*
+creds/mail/mail*
+creds/sheets/sheets*
