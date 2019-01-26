@@ -63,8 +63,8 @@ def send_message(service, user_id, message):
     message = (service.users().messages().send(userId=user_id, body=message)
                .execute())
     return message
-  except errors.HttpError, error:
-    print 'An error occurred: %s' % error
+  except errors.HttpError as error:
+    print('An error occurred: %s' % error)
 
 def send_email(sender, to, subject, body):
     creds = get_credentials(app='mail', scopes='https://www.googleapis.com/auth/gmail.send', app_name=None)

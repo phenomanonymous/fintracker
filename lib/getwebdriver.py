@@ -2,7 +2,7 @@ from selenium import webdriver
 from selenium.common import exceptions
 from selenium.webdriver.chrome.options import Options
 from seleniumrequests import Chrome
-from googleapi import get_mint_email_verification_code
+from .googleapi import get_mint_email_verification_code
 import time
 import urllib
 import inspect

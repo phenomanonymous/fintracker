@@ -1,5 +1,7 @@
 #!/usr/bin/env bash
 
+# TODO: which python then handle pip vs pip3
+
 command -v pip >/dev/null 2>&1 || { echo "pip is not installed, running `sudo easy_install pip`"; sudo easy_install pip; }
 #echo ">pip installing virtualenv"
 #pip install --user virtualenv

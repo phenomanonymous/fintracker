@@ -12,7 +12,7 @@ import re
 import json
 import requests
 from datetime import datetime
-from getwebdriver import get_mint_page
+from .getwebdriver import get_mint_page
 
 MINT_ROOT_URL = 'https://mint.intuit.com'
 MINT_ACCOUNTS_URL = 'https://accounts.intuit.com'
