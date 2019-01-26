@@ -39,7 +39,7 @@ def get_logged_in_driver(email, password):
         driver.find_element_by_id("ius-sign-in-submit-btn").submit()
 
         return driver
-    except exceptions.NoSuchElementException, e:
+    except exceptions.NoSuchElementException as e:
         print(e)
         print("Writing page source to html/exceptionpage.html")
         dir_path = os.path.dirname(inspect.stack()[-1][1]) # inspect.stack returns stack of calls, -1 is first aka original calling script. [1] is the filename

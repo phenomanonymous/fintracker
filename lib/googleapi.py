@@ -77,7 +77,7 @@ def send_email(sender, to, subject, body):
 def print_findata_values(findata):
     try:
         pprint(findata)
-    except Exception, e:
+    except Exception as e:
         print("Exception was: %s" % e)
 
 def update_finances_sheet(master_sheet, findata):

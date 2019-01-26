@@ -64,7 +64,7 @@ def main():
         data = make_accounts_presentable(mint.get_accounts(
             get_detail=False)
         )
-    except Exception, e:
+    except Exception as e:
         print("get_accounts encountered exception: %s" % e)
         data = None
 
